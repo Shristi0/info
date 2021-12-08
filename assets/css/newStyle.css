@@ -1,3 +1,6 @@
+.modal-title{
+  color: #ff6600;
+}
 .banner-text-head {
   font-size: 45px !important;
 }
@@ -6,9 +9,19 @@
 }
 .title-style-choose {
   font-weight: 600;
+  color: #ff6600;
+}
+.title-style{
+  color: #ff6600;
+}
+.w3l-feature-text{
+  color: #ff6600;
 }
 .why-choose-us-list li {
   list-style: inside;
+}
+.title-big{
+  color: #ff6600;
 }
 #Layer_1 {
   width: 200px;
@@ -22,7 +35,9 @@
   height: 200px;
   overflow: hidden;
 }
-
+.inner-text-title{
+  color: #ff6600;
+}
 
 #itConsult{
   display: flex;
