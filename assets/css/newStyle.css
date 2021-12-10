@@ -88,19 +88,36 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin-bottom: 10px;
 }
-.frameworks {
-
-  gap: 60px;
-  border: 1px solid lightblue;
+.framworks {
+  height: 45px;
+  gap: 20px;
+ 
   display: flex;
   justify-content: space-evenly;
-  width: 90px;
+  width: auto;
   align-items: center;
- 
+  background: var(--bg-color);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in;
+  
 }
-
-
+.framworks a :hover{
+  color:#ff6600;
+  cursor: pointer;
+}
+.imgs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.imgs .photos{
+  background-size: 150px;
+}
 
 
 

@@ -15757,6 +15757,11 @@ li.phone-sec span,
 h4.heading-styles i {
   font-size: 38px;
 }
+.service-icon{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 
 .w3l-features-photo-7-box i,
 .service-icon span,
