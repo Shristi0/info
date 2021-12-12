@@ -48,9 +48,13 @@
   width:600px;
   height: 380px;
 }
+.img-responsiveLM{
+  width:100%;
+  height: auto;
+}
 .img-responsive{
-  width:auto;
-  height:350px;
+  width:100%;
+  height:auto;
   
 }
 .exploreBtn{
@@ -87,10 +91,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 25px;
+  flex-wrap: wrap;
+  gap: column 30px;;
   margin-bottom: 10px;
 }
 .framworks {
+  padding: 1rem;
   height: 45px;
   gap: 20px;
  
@@ -118,7 +125,17 @@
 .imgs .photos{
   background-size: 150px;
 }
+@media (max-width:744px) {
+  .backend h1{
+    padding: 10px 10px 30px 10px;
+    color:#ff6600;
 
+  }
+  .backend p{
+    padding: 10px 10px 30px 10px;
+  }
+  
+}
 
 
 /* .servicesExplore{

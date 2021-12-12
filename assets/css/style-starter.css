@@ -740,6 +740,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: space-around;
 }
 
 .no-gutters {
@@ -15759,6 +15760,7 @@ h4.heading-styles i {
 }
 .service-icon{
   display: flex;
+  flex-direction: column;
   gap: 20px;
   align-items: center;
 }
@@ -15789,6 +15791,7 @@ h4.heading-styles i {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   margin-bottom: 30px;
   border-radius: 4px;
+  cursor: pointer;
   transition: all 0.3s ease-in;
 }
 
@@ -16449,12 +16452,12 @@ h4.heading-styles {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border-radius: 0 0 4px 4px;
   transition: all 0.3s ease-in;
+  cursor: pointer;
 }
 
 .service-single-grid img {
   border-radius: 4px 4px 0 0;
 }
-
 .service-content h5 a {
   color: var(--heading-color);
   font-weight: 600;
